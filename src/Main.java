@@ -1,13 +1,10 @@
 public class Main {
     public static void main(String[] args) {
         Author author1 = new Author("Lev", "TolstoyW");
-        Author author2 = new Author("Alexandr", "Pushkin");
-
-
+        System.out.println(author1);
         Book book1 = new Book("Война и мир", author1, 1900);
-        Book book2 = new Book("У лукоморья", author2, 1901);
+        System.out.println(book1);
 
-        book2.setYear(1902);
 
 
     }
